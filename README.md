@@ -2,7 +2,7 @@
 Connect 4 game written in Python. Pyglet used for the UI and the AI uses a minimax algorithm.
 
 # Notes
-The most recent version (folder: Connect 4 pyglet v5) performs the best (and should have no bugs or errors). Prior versions are uploaded to this repository too but are not all fully functional and will have performance issues.
+The most recent version (folder: Connect 4 pyglet v5) performs the best and is meant to be run. Prior versions are uploaded to this repository too but are not all fully functional and will have performance issues.
 
 # Run the code
 Download the contents of the folder Connect 4 pyglet v5 and run pyglet_window.py. Ensure that the pyglet library is installed, and that icon.png and backend.py are in the same directory as the main file.
