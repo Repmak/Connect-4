@@ -1,7 +1,3 @@
-# THE UI HAS SOME NEW ADDITIONS THAT Connect 4 pyglet v3 DOES NOT HAVE.
-# THE AI USES THE LOGIC FROM minimax v6.
-# ALL MINOR BUGS HAVE BEEN ADDRESSED TOO (EG: HANDLING FULL BOARD, ETC).
-
 import pyglet
 from pyglet import shapes
 from pyglet.window import key
