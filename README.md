@@ -1,5 +1,7 @@
 # Connect-4
-The most recent version of the game is located in the folder Connect 4 pyglet v5. Prior versions are uploaded to this repository too but are not all fully functional and will have performance issues. To run the code, download the contents of the folder Connect 4 pyglet v5 and run pyglet_window.py. Ensure that the pyglet library is installed, and that icon.png and backend.py are in the same directory as the main file.
+The most recent version of the game is located in the folder Connect 4 pyglet v5. To run the code, download the contents of the folder and run pyglet_window.py. Ensure that the pyglet library is installed, and that icon.png and backend.py are in the same directory as the main file.
+
+Prior versions are uploaded to this repository too but are not all fully functional and will have performance issues.
 
 # Design process
 - minimax v1: This algorithm only checks for the next best move. Only immediate wins are found.
