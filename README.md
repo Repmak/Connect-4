@@ -17,7 +17,7 @@ Prior versions are uploaded to this repository too but are not all fully functio
 - Connect 4 pyglet v2.py: The UI in this version is nearly fully completed, and does not change much throughout future versions. The AI randomly chooses a column for its turn.
 - Connect 4 pyglet v3 (folder): This version makes use of two classes to separate the front end and backend code. In this version, the AI still does not make use of a minimax algorithm, though the structure of the current code will permit future versions of the code to remain readable and modular.
 - Connect 4 pyglet v4 (folder): This version makes use of a minimax algorithm. There are still some minor improvements that are made in the latest version.
-- Connect 4 pyglet v5 (folder): This is the most recent version of the game. The backend uses the algorithm from minimax v5. The AI is not perfect and is capable of winning against me roughly 50% of the time.
+- Connect 4 pyglet v5 (folder): This is the most recent version of the game. The backend uses a similar implementation to the algorithm from minimax v5. The AI is not perfect and is capable of winning against me roughly 50% of the time.
 
 # Self-evaluation: why minimax v5 works best and how my algorithm can be improved
 Firstly, let's address why minimax v6 causes the AI to perform worse. By terminating a branch from generating future turns once a win is found, the algorithm will not be able to check for forced wins through 2 or more threats. This is simply because the 2nd, 3rd, etc win will never be identified since the branch will have already been interrupted.
