@@ -1,7 +1,3 @@
-# THE UI IS THE SAME AS Connect 4 pyglet v3.
-# THE AI USES THE LOGIC FROM minimax v5.
-# THERE ARE ALSO SOME MINOR CHANGES TO THE BACKEND, MAKING IT MORE OPTIMISED.
-
 import pyglet
 from pyglet import shapes
 from pyglet.window import key
